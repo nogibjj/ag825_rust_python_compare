@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      WORKING_DIR: rust-code 
+      WORKING_DIR: rust_code 
 
     steps:
     - name: Checkout code
