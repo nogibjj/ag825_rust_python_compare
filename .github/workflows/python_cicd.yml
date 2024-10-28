@@ -1,4 +1,4 @@
-name: CI
+name: python_cicd
 on:
   push:
     branches: ["main"]
