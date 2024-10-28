@@ -1,0 +1,9 @@
+[package]
+name = "rust_code"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+csv = "1.3.0"
+polars = { version = "0.33", features = ["csv"] }
+sysinfo = "0.32.0"

@@ -1,4 +1,4 @@
-name: CI
+name: rust_cicd
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      WORKING_DIR: add #change this to the rust project name you are developing.
+      WORKING_DIR: rust-code 
 
     steps:
     - name: Checkout code
