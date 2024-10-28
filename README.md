@@ -7,6 +7,10 @@ Duke University, Fall 2024 <br >
 
 ### About the project
 
+[![python_cicd](https://github.com/nogibjj/ag825_rust_python_compare/actions/workflows/python_cicd.yml/badge.svg)](https://github.com/nogibjj/ag825_rust_python_compare/actions/workflows/python_cicd.yml)
+
+[![rust_cicd](https://github.com/nogibjj/ag825_rust_python_compare/actions/workflows/rust_cicd.yml/badge.svg)](https://github.com/nogibjj/ag825_rust_python_compare/actions/workflows/rust_cicd.yml)
+
 This project aims to compare the performances of basic operations on Python vs RUST. We read a .csv file into a dataframe and print out the shape and first 10 rows of the dataframe. We compare the time and memory used in both cases.
 
 The dataset used for this project was acquired from Kaggle (Olympic Summer Games - Paris 2024 -> medallists.csv). Link to the dataset: (https://www.kaggle.com/datasets/muhammadehsan02/olympic-summer-games-paris-2024?select=medallists.csv)
