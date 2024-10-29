@@ -7,9 +7,7 @@ Duke University, Fall 2024 <br >
 
 ### About the project
 
-[![python_cicd](https://github.com/nogibjj/ag825_rust_python_compare/actions/workflows/python_cicd.yml/badge.svg)](https://github.com/nogibjj/ag825_rust_python_compare/actions/workflows/python_cicd.yml)
-
-[![rust_cicd](https://github.com/nogibjj/ag825_rust_python_compare/actions/workflows/rust_cicd.yml/badge.svg)](https://github.com/nogibjj/ag825_rust_python_compare/actions/workflows/rust_cicd.yml)
+[![python_cicd](https://github.com/nogibjj/ag825_rust_python_compare/actions/workflows/python_cicd.yml/badge.svg)](https://github.com/nogibjj/ag825_rust_python_compare/actions/workflows/python_cicd.yml)  [![rust_cicd](https://github.com/nogibjj/ag825_rust_python_compare/actions/workflows/rust_cicd.yml/badge.svg)](https://github.com/nogibjj/ag825_rust_python_compare/actions/workflows/rust_cicd.yml)
 
 This project aims to compare the performances of basic operations on Python vs RUST. We read a .csv file into a dataframe and print out the shape and first 10 rows of the dataframe. We compare the time and memory used in both cases.
 
@@ -56,9 +54,9 @@ This file generates the following on execution:
 | Metric                | Python Code                   | Rust Code          | 
 |-----------------------|---------------------------|----------------|
 | **Time taken**  | `0.096 sec`                  | `383.806 usec`        |                                     |
-| **Memory consumed**      | `29.69 MB` | `4460 MB` | ~40% faster                          |
+| **Memory consumed**      | `29.69 MB` | `3 MB` | 
 
-We do notice that although the RUST code runs much faster, it does tend to consume more memory during the execution process. This is an intrinsic tradeoff which must be evaluated on a case by case basis.
+The RUST code seems to take lesser time to run and is mroe memory efficient in its operations
 
 > Output generated from the Python code execution:
 ![](python.png)

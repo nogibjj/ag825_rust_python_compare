@@ -1,4 +1,3 @@
-use csv::ReaderBuilder;
 use polars::prelude::*;
 use std::error::Error;
 
