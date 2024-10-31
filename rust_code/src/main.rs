@@ -3,6 +3,8 @@ use rust_code::read;
 use std::time::Instant;
 use sysinfo::System;
 
+mod test;
+
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut system = System::new_all();
     system.refresh_memory();

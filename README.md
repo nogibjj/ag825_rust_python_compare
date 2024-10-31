@@ -25,6 +25,7 @@ The structure of this file is as follows:
     - src file
         - main.rs: Calls the read function from lib.rs
         - lib.rs: Reads data from a .csv file into a dataframe, prints out the shape and top 10 rows from the dataset
+        - test.rs: Test cases
     - target folder
     - Cargo.toml: Mentions dependancies needed to run the program
     - Cargo.lock
